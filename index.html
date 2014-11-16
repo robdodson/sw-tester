@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <style>
+      img {
+        width: 500px;
+        height: 500px;
+      }
+      #poster {
+        background: url('https://s3.amazonaws.com/robdodson/images/addy.jpeg');
+        width: 500px;
+        height: 500px;
+      }
+
+      /* pages */
+      #foo {
+        display: none;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <section id="home">
+      <a href="/#/foo">
+        <img src="https://s3.amazonaws.com/robdodson/images/addy.jpeg"
+             alt="addy">
+      </a>
+      <h1>img tag</h1>
+    </section>
+
+    <section id="foo">
+      <div id="poster"></div>
+      <h1>background image</h1>
+    </section>
+
+    <script src="bower_components/director/build/director.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
