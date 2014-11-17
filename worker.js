@@ -4,8 +4,8 @@ importScripts('/bower_components/cache-polyfill/dist/serviceworker-cache-polyfil
 // be aware that any global state is likely to disappear
 console.log('SW startup');
 
-var DEFAULT_CACHE = 'sw-tester-static1';
-var S3_CACHE = 's3-tester-static1';
+var DEFAULT_CACHE = 'sw-tester-static3';
+var S3_CACHE = 's3-tester-static3';
 
 self.addEventListener('install', function(event) {
   // pre cache a load of stuff:
