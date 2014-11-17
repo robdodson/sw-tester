@@ -1,6 +1,11 @@
 sw-tester
 =========
 
+## Chrome Bug
+https://code.google.com/p/chromium/issues/detail?id=433708
+
+## Steps to repro
+
 - Fire up the app on a local server
 - Navigate to localhost:[port]/#/contacts
 - See the images load in. Refresh the page and verify they're loaded from service worker
